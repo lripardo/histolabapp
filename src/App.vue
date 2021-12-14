@@ -1,11 +1,22 @@
 <template>
   <v-app>
-    TESTE
+    <custom-app-bar :hidden-back="hideBackBtn"/>
+    <v-main class="fill-height">
+      <router-view/>
+    </v-main>
   </v-app>
 </template>
 
 <script>
+import CustomAppBar from '@/components/CustomAppBar';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {CustomAppBar},
+  computed: {
+    hideBackBtn() {
+      return this.$route.name === 'home';
+    }
+  }
 }
 </script>
