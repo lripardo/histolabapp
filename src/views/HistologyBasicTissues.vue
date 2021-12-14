@@ -11,7 +11,7 @@
       <v-container>
         <v-row class="text-center" align="center">
           <v-col cols="6">
-            <custom-btn color="accent">
+            <custom-btn to="epithelial-tissue" color="accent">
               <multiline-btn>
                 <div>TECIDO</div>
                 <div>EPITELIAL</div>
@@ -19,7 +19,7 @@
             </custom-btn>
           </v-col>
           <v-col cols="6">
-            <custom-btn color="accent">
+            <custom-btn to="home" color="accent">
               <multiline-btn>
                 <div>TECIDO</div>
                 <div>CONJUNTIVO</div>
@@ -27,7 +27,7 @@
             </custom-btn>
           </v-col>
           <v-col cols="6">
-            <custom-btn color="accent">
+            <custom-btn to="home" color="accent">
               <multiline-btn>
                 <div>TECIDO</div>
                 <div>MUSCULAR</div>
@@ -35,7 +35,7 @@
             </custom-btn>
           </v-col>
           <v-col cols="6">
-            <custom-btn color="accent">
+            <custom-btn to="home" color="accent">
               <multiline-btn>
                 <div>TECIDO</div>
                 <div>NERVOSO</div>

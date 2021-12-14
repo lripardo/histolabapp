@@ -7,16 +7,14 @@
         </v-avatar>
       </v-col>
       <v-col class="py-2" cols="12">
-        <router-link to="presentation">
-          <custom-btn color="primary">APRESENTAÇÃO</custom-btn>
-        </router-link>
+        <custom-btn to="presentation" color="primary">
+          APRESENTAÇÃO
+        </custom-btn>
       </v-col>
       <v-col class="py-2" cols="12">
-        <router-link to="histology-basic-tissues">
-          <custom-btn color="primary">
-            TECIDOS BÁSICOS DE HISTOLOGIA
-          </custom-btn>
-        </router-link>
+        <custom-btn to="histology-basic-tissues" color="primary">
+          TECIDOS BÁSICOS DE HISTOLOGIA
+        </custom-btn>
       </v-col>
     </v-row>
   </v-container>
