@@ -7,15 +7,19 @@
         </v-avatar>
       </v-col>
       <v-col class="py-2" cols="12">
+        <router-link to="presentation">
           <v-btn class="black--text font-weight-bold" elevation="0" color="primary" tile block>
             APRESENTAÇÃO
           </v-btn>
+        </router-link>
       </v-col>
       <v-col class="py-2" cols="12">
-        <v-btn class="black--text font-weight-bold" elevation="0" color="primary" tile block>TECIDOS BÁSICOS
-          DE
-          HISTOLOGIA
-        </v-btn>
+        <router-link to="home">
+          <v-btn class="black--text font-weight-bold" elevation="0" color="primary" tile block>TECIDOS BÁSICOS
+            DE
+            HISTOLOGIA
+          </v-btn>
+        </router-link>
       </v-col>
     </v-row>
   </v-container>

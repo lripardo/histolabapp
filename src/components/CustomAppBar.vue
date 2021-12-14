@@ -43,7 +43,7 @@ export default {
   }),
   computed: {
     items() {
-      return this.$router ? this.$router.options.routes : [];
+      return this.$router ? this.$router.options.routes.filter(r => r.name) : [];
     }
   },
   methods: {
@@ -54,7 +54,7 @@ export default {
       !route || goTo(route.name);
     },
     pageQuery(route, queryText) {
-      if (route && route.meta.search.keys.length) {
+      if (route && route.meta && route.meta.search.keys.length) {
         return !!route.meta.search.keys.find(key => key.includes(queryText.toLowerCase()));
       }
       return false;

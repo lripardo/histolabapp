@@ -1,5 +1,9 @@
 {
+  "short_name": "HistoLabApp",
   "name": "HistoLabApp",
+  "theme_color": "#FFCCCC",
+  "background_color": "#FFFFFF",
+  "description": "Aplicativo móvel sobre Histologia Básica",
   "icons": [
     {
       "src": "/img/icons/android-icon-36x36.png",

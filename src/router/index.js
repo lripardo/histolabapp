@@ -6,7 +6,7 @@ import Presentation from '@/views/Presentation';
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-    mode: 'history', base: process.env.BASE_URL, routes: [{
+    base: process.env.BASE_URL, routes: [{
         path: '/', name: 'home', component: Home, meta: {
             search: {
                 text: 'Início', keys: ['inicio', 'home']
@@ -18,6 +18,8 @@ const router = new VueRouter({
                 text: 'Apresentação', keys: ['apresentacao', 'sobre']
             }
         }
+    }, {
+        path: '*', redirect: '/'
     }]
 });
 
