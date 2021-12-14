@@ -8,17 +8,14 @@
       </v-col>
       <v-col class="py-2" cols="12">
         <router-link to="presentation">
-          <v-btn class="black--text font-weight-bold" elevation="0" color="primary" tile block>
-            APRESENTAÇÃO
-          </v-btn>
+          <custom-btn color="primary">APRESENTAÇÃO</custom-btn>
         </router-link>
       </v-col>
       <v-col class="py-2" cols="12">
-        <router-link to="home">
-          <v-btn class="black--text font-weight-bold" elevation="0" color="primary" tile block>TECIDOS BÁSICOS
-            DE
-            HISTOLOGIA
-          </v-btn>
+        <router-link to="histology-basic-tissues">
+          <custom-btn color="primary">
+            TECIDOS BÁSICOS DE HISTOLOGIA
+          </custom-btn>
         </router-link>
       </v-col>
     </v-row>
@@ -26,7 +23,11 @@
 </template>
 
 <script>
+import CustomBtn from '@/components/CustomBtn';
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {CustomBtn}
+
 }
 </script>

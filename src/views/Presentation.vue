@@ -1,5 +1,5 @@
 <template>
-  <v-card class="text-justify" flat>
+  <v-card flat>
     <v-card-title>APRESENTAÇÃO</v-card-title>
     <v-card-text>
       <p>Olá, bem vindo(a) ao HistoLabApp.</p>

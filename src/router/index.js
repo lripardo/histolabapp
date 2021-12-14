@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '@/views/Home.vue';
 import Presentation from '@/views/Presentation';
+import HistologyBasicTissues from '@/views/HistologyBasicTissues';
 
 Vue.use(VueRouter);
 
@@ -15,7 +16,13 @@ const router = new VueRouter({
     }, {
         path: '/presentation', name: 'presentation', component: Presentation, meta: {
             search: {
-                text: 'Apresentação', keys: ['apresentacao', 'sobre']
+                text: 'Apresentação', keys: ['apresentacao', 'sobre', 'informacoes']
+            }
+        }
+    }, {
+        path: '/histology-basic-tissues', name: 'histology-basic-tissues', component: HistologyBasicTissues, meta: {
+            search: {
+                text: 'Tecidos Básicos de Histologia', keys: ['tecidos basicos de histologia']
             }
         }
     }, {
