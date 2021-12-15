@@ -22,7 +22,7 @@ export default {
         txt: 'Denso Modelado'
       },
       {
-        to: '',
+        to: 'connective-tissue-properly-said-dense-unpatterned',
         txt: 'Denso não modelado'
       },
       {
