@@ -21,7 +21,7 @@ export default {
         txt: 'Unilocular'
       },
       {
-        to: '',
+        to: 'connective-tissue-adipose-multilocular',
         txt: 'Multilocular'
       }
     ]
