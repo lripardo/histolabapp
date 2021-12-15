@@ -1,6 +1,6 @@
 <template>
   <v-card class="fill-height" flat>
-    <v-card-title><h5>{{ title }}</h5></v-card-title>
+    <h2 class="text-center">{{ title }}</h2>
     <v-card-text>
       <v-card color="color2">
         <v-card-text>

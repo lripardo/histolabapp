@@ -17,7 +17,7 @@ export default {
         txt: 'Cúbico'
       },
       {
-        to: '',
+        to: 'epithelial-tissue-stratified-non-keratinized',
         txt: 'Pavimentoso não queratinizado '
       },
       {
