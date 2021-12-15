@@ -18,7 +18,7 @@ export default {
         txt: 'Frouxo'
       },
       {
-        to: '',
+        to: 'connective-tissue-properly-said-dense-patterned',
         txt: 'Denso Modelado'
       },
       {
