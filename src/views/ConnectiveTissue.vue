@@ -24,7 +24,7 @@ export default {
         txt: 'Adiposo'
       },
       {
-        to: '',
+        to: 'connective-tissue-cartilaginous',
         txt: 'Cartilaginoso'
       },
       {
