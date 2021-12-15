@@ -17,10 +17,11 @@ import EpithelialTissueStratifiedTransitional from '@/views/EpithelialTissueStra
 import ConnectiveTissue from '@/views/ConnectiveTissue';
 import ConnectiveTissueProperlySaid from '@/views/ConnectiveTissueProperlySaid';
 import ConnectiveTissueProperlySaidLoose from '@/views/ConnectiveTissueProperlySaidLoose';
-import ConnectiveTissueProperlySaidDensePatterned from "@/views/ConnectiveTissueProperlySaidDensePatterned";
+import ConnectiveTissueProperlySaidDensePatterned from '@/views/ConnectiveTissueProperlySaidDensePatterned';
 import ConnectiveTissueProperlySaidDenseUnpatterned from '@/views/ConnectiveTissueProperlySaidDenseUnpatterned';
 import ConnectiveTissueProperlySaidElastic from '@/views/ConnectiveTissueProperlySaidElastic';
-import ConnectiveTissueProperlySaidMucous from "@/views/ConnectiveTissueProperlySaidMucous";
+import ConnectiveTissueProperlySaidMucous from '@/views/ConnectiveTissueProperlySaidMucous';
+import ConnectiveTissueAdipose from '@/views/ConnectiveTissueAdipose';
 
 Vue.use(VueRouter);
 
@@ -200,6 +201,15 @@ const router = new VueRouter({
         meta: {
             search: {
                 text: 'Tecido Conjuntivo Propriamente Dito Mucoso', keys: ['tecido conjuntivo propriamente dito mucoso']
+            }
+        }
+    }, {
+        path: '/connective-tissue-adipose',
+        name: 'connective-tissue-adipose',
+        component: ConnectiveTissueAdipose,
+        meta: {
+            search: {
+                text: 'Tecido Conjuntivo Adiposo', keys: ['tecido conjuntivo adiposo']
             }
         }
     }, {

@@ -20,7 +20,7 @@ export default {
         txt: 'Propriamente dito'
       },
       {
-        to: '',
+        to: 'connective-tissue-adipose',
         txt: 'Adiposo'
       },
       {
