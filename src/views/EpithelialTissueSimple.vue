@@ -1,36 +1,36 @@
 <template>
-  <v-card class="fill-height" flat color="color1">
-    <v-card-title>Tecido Epitelial Simples</v-card-title>
-    <v-card-text>
-      <p>O Tecido Epitelial simples também conhecido como uniestratificado, são aqueles os quais apresentam apenas uma
-        camada de células.</p>
-      <p>Ele pode ser subdividido em:</p>
-
-      <v-container>
-        <v-row class="text-center" align="center">
-          <v-col cols="12">
-            <custom-btn to="epithelial-tissue-simple-cubic" color="white">Cúbico</custom-btn>
-          </v-col>
-          <v-col cols="12">
-            <custom-btn to="epithelial-tissue-simple-pavement" color="white">Pavimentoso</custom-btn>
-          </v-col>
-          <v-col cols="12">
-            <custom-btn to="epithelial-tissue-simple-prismatic" color="white">Prismático</custom-btn>
-          </v-col>
-          <v-col cols="12">
-            <custom-btn to="epithelial-tissue-simple-pseudostratified" color="white">Pseudoestratificado</custom-btn>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-card-text>
-  </v-card>
+  <tissue-list title="Tecido Epitelial Simples" :tissues="tissues">
+    <p>O Tecido Epitelial simples também conhecido como uniestratificado, são aqueles os quais apresentam apenas uma
+      camada de células.</p>
+    <p>Ele pode ser subdividido em:</p>
+  </tissue-list>
 </template>
 
 <script>
-import CustomBtn from '@/components/CustomBtn';
+import TissueList from '@/components/TissueList';
 
 export default {
   name: 'EpithelialTissueSimple',
-  components: {CustomBtn}
+  components: {TissueList},
+  data: () => ({
+    tissues: [
+      {
+        to: 'epithelial-tissue-simple-cubic',
+        txt: 'Cúbico'
+      },
+      {
+        to: 'epithelial-tissue-simple-pavement',
+        txt: 'Pavimentoso'
+      },
+      {
+        to: 'epithelial-tissue-simple-prismatic',
+        txt: 'Prismático'
+      },
+      {
+        to: 'epithelial-tissue-simple-pseudostratified',
+        txt: 'Pseudoestratificado'
+      }
+    ]
+  })
 }
 </script>
