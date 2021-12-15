@@ -13,7 +13,7 @@ export default {
   data: () => ({
     tissues: [
       {
-        to: '',
+        to: 'epithelial-tissue-stratified-cubic',
         txt: 'Cúbico'
       },
       {
