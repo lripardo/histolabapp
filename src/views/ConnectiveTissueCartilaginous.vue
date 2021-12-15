@@ -21,7 +21,7 @@ export default {
         txt: 'Elástica'
       },
       {
-        to: '',
+        to: 'connective-tissue-cartilaginous-fibrocartilage',
         txt: 'Fibrocartilagem'
       },
       {
