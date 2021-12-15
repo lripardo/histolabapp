@@ -1,17 +1,26 @@
 <template>
-  <router-link tag="span" :to="to">
-    <v-btn class="black--text font-weight-bold" :color="color" tile block>
-      <slot></slot>
-    </v-btn>
-  </router-link>
+  <v-btn class="black--text font-weight-bold" :color="color" tile block @click="goToRoute">
+    <slot></slot>
+  </v-btn>
 </template>
 
 <script>
+import {goTo} from '@/router/util';
+
 export default {
   props: {
-    to: String,
+    to: {
+      type: String,
+      required: false,
+      default: ''
+    },
     color: String
   },
-  name: 'CustomBtn'
+  name: 'CustomBtn',
+  methods: {
+    goToRoute() {
+      !this.to || goTo(this.to);
+    }
+  }
 }
 </script>
