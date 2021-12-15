@@ -9,6 +9,7 @@ import EpithelialTissueSimpleCubic from '@/views/EpithelialTissueSimpleCubic';
 import EpithelialTissueSimplePavement from '@/views/EpithelialTissueSimplePavement';
 import EpithelialTissueSimplePrismatic from '@/views/EpithelialTissueSimplePrismatic';
 import EpithelialTissueSimplePseudostratified from '@/views/EpithelialTissueSimplePseudostratified';
+import EpithelialTissueStratified from '@/views/EpithelialTissueStratified';
 
 Vue.use(VueRouter);
 
@@ -77,6 +78,15 @@ const router = new VueRouter({
         meta: {
             search: {
                 text: 'Tecido Epitelial Pseudoestratificado', keys: ['tecido epitelial simples pseudoestratificado']
+            }
+        }
+    }, {
+        path: '/epithelial-tissue-stratified',
+        name: 'epithelial-tissue-stratified',
+        component: EpithelialTissueStratified,
+        meta: {
+            search: {
+                text: 'Tecido Epitelial Estratificado', keys: ['tecido epitelial estratificado']
             }
         }
     }, {

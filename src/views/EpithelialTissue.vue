@@ -22,7 +22,7 @@ export default {
         txt: 'Simples'
       },
       {
-        to: '',
+        to: 'epithelial-tissue-stratified',
         txt: 'Estratificado'
       },
       {
