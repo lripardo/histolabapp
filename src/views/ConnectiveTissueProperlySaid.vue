@@ -14,7 +14,7 @@ export default {
   data: () => ({
     tissues: [
       {
-        to: '',
+        to: 'connective-tissue-properly-said-loose',
         txt: 'Frouxo'
       },
       {

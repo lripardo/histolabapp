@@ -16,6 +16,7 @@ import EpithelialTissueStratifiedKeratinized from '@/views/EpithelialTissueStrat
 import EpithelialTissueStratifiedTransitional from '@/views/EpithelialTissueStratifiedTransitional';
 import ConnectiveTissue from '@/views/ConnectiveTissue';
 import ConnectiveTissueProperlySaid from '@/views/ConnectiveTissueProperlySaid';
+import ConnectiveTissueProperlySaidLoose from '@/views/ConnectiveTissueProperlySaidLoose';
 
 Vue.use(VueRouter);
 
@@ -141,9 +142,21 @@ const router = new VueRouter({
             }
         }
     }, {
-        path: '/connective-tissue-properly-said', name: 'connective-tissue-properly-said', component: ConnectiveTissueProperlySaid, meta: {
+        path: '/connective-tissue-properly-said',
+        name: 'connective-tissue-properly-said',
+        component: ConnectiveTissueProperlySaid,
+        meta: {
             search: {
                 text: 'Tecido Conjuntivo Propriamente Dito', keys: ['tecido conjuntivo propriamente dito']
+            }
+        }
+    }, {
+        path: '/connective-tissue-properly-said-loose',
+        name: 'connective-tissue-properly-said-loose',
+        component: ConnectiveTissueProperlySaidLoose,
+        meta: {
+            search: {
+                text: 'Tecido Conjuntivo Propriamente Dito Frouxo', keys: ['tecido conjuntivo propriamente dito frouxo']
             }
         }
     }, {
