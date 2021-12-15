@@ -12,10 +12,10 @@
             <custom-btn to="epithelial-tissue-simple-cubic" color="white">Cúbico</custom-btn>
           </v-col>
           <v-col cols="12">
-            <custom-btn to="home" color="white">Prismático</custom-btn>
+            <custom-btn to="epithelial-tissue-simple-pavement" color="white">Pavimentoso</custom-btn>
           </v-col>
           <v-col cols="12">
-            <custom-btn to="home" color="white">Pavimentoso</custom-btn>
+            <custom-btn to="home" color="white">Prismático</custom-btn>
           </v-col>
           <v-col cols="12">
             <custom-btn to="home" color="white">Pseudoestratificado</custom-btn>

@@ -6,6 +6,7 @@ import HistologyBasicTissues from '@/views/HistologyBasicTissues';
 import EpithelialTissue from '@/views/EpithelialTissue';
 import EpithelialTissueSimple from '@/views/EpithelialTissueSimple';
 import EpithelialTissueSimpleCubic from '@/views/EpithelialTissueSimpleCubic';
+import EpithelialTissueSimplePavement from '@/views/EpithelialTissueSimplePavement';
 
 Vue.use(VueRouter);
 
@@ -47,6 +48,15 @@ const router = new VueRouter({
         meta: {
             search: {
                 text: 'Tecido Epitelial Simples Cúbico', keys: ['tecido epitelial simples cubico']
+            }
+        }
+    }, {
+        path: '/epithelial-tissue-simple-pavement',
+        name: 'epithelial-tissue-simple-pavement',
+        component: EpithelialTissueSimplePavement,
+        meta: {
+            search: {
+                text: 'Tecido Epitelial Simples Pavimentoso', keys: ['tecido epitelial simples pavimentoso']
             }
         }
     }, {
