@@ -21,7 +21,7 @@ export default {
         txt: 'Pavimentoso não queratinizado '
       },
       {
-        to: '',
+        to: 'epithelial-tissue-stratified-keratinized',
         txt: 'Pavimentoso queratinizado'
       },
       {
