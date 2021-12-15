@@ -25,7 +25,7 @@ export default {
         txt: 'Pavimentoso queratinizado'
       },
       {
-        to: '',
+        to: 'epithelial-tissue-stratified-transitional',
         txt: 'Transição'
       }
     ]

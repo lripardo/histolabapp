@@ -13,6 +13,7 @@ import EpithelialTissueStratified from '@/views/EpithelialTissueStratified';
 import EpithelialTissueStratifiedCubic from '@/views/EpithelialTissueStratifiedCubic';
 import EpithelialTissueStratifiedNonKeratinized from '@/views/EpithelialTissueStratifiedNonKeratinized';
 import EpithelialTissueStratifiedKeratinized from '@/views/EpithelialTissueStratifiedKeratinized';
+import EpithelialTissueStratifiedTransitional from "@/views/EpithelialTissueStratifiedTransitional";
 
 Vue.use(VueRouter);
 
@@ -119,6 +120,16 @@ const router = new VueRouter({
             search: {
                 text: 'Tecido Epitelial Estratificado Queratinizado',
                 keys: ['tecido epitelial estratificado queratinizado']
+            }
+        }
+    }, {
+        path: '/epithelial-tissue-stratified-transitional',
+        name: 'epithelial-tissue-stratified-transitional',
+        component: EpithelialTissueStratifiedTransitional,
+        meta: {
+            search: {
+                text: 'Tecido Epitelial Estratificado de Transição',
+                keys: ['tecido epitelial estratificado de transicao']
             }
         }
     }, {
