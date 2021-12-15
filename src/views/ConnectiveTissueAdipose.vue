@@ -17,7 +17,7 @@ export default {
   data: () => ({
     tissues: [
       {
-        to: '',
+        to: 'connective-tissue-adipose-unilocular',
         txt: 'Unilocular'
       },
       {

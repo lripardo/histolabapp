@@ -22,6 +22,7 @@ import ConnectiveTissueProperlySaidDenseUnpatterned from '@/views/ConnectiveTiss
 import ConnectiveTissueProperlySaidElastic from '@/views/ConnectiveTissueProperlySaidElastic';
 import ConnectiveTissueProperlySaidMucous from '@/views/ConnectiveTissueProperlySaidMucous';
 import ConnectiveTissueAdipose from '@/views/ConnectiveTissueAdipose';
+import ConnectiveTissueAdiposeUnilocular from "@/views/ConnectiveTissueAdiposeUnilocular";
 
 Vue.use(VueRouter);
 
@@ -210,6 +211,15 @@ const router = new VueRouter({
         meta: {
             search: {
                 text: 'Tecido Conjuntivo Adiposo', keys: ['tecido conjuntivo adiposo']
+            }
+        }
+    }, {
+        path: '/connective-tissue-adipose-unilocular',
+        name: 'connective-tissue-adipose-unilocular',
+        component: ConnectiveTissueAdiposeUnilocular,
+        meta: {
+            search: {
+                text: 'Tecido Conjuntivo Adiposo Unilocular', keys: ['tecido conjuntivo adiposo unilocular']
             }
         }
     }, {
