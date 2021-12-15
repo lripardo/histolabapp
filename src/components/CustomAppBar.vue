@@ -9,6 +9,9 @@
     <v-autocomplete
         :items="items"
         dense
+        flat
+        full-width
+        single-line
         rounded
         outlined
         hide-details

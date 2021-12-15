@@ -15,6 +15,7 @@ import EpithelialTissueStratifiedNonKeratinized from '@/views/EpithelialTissueSt
 import EpithelialTissueStratifiedKeratinized from '@/views/EpithelialTissueStratifiedKeratinized';
 import EpithelialTissueStratifiedTransitional from '@/views/EpithelialTissueStratifiedTransitional';
 import ConnectiveTissue from '@/views/ConnectiveTissue';
+import ConnectiveTissueProperlySaid from '@/views/ConnectiveTissueProperlySaid';
 
 Vue.use(VueRouter);
 
@@ -137,6 +138,12 @@ const router = new VueRouter({
         path: '/connective-tissue', name: 'connective-tissue', component: ConnectiveTissue, meta: {
             search: {
                 text: 'Tecido Conjuntivo', keys: ['tecido conjuntivo']
+            }
+        }
+    }, {
+        path: '/connective-tissue-properly-said', name: 'connective-tissue-properly-said', component: ConnectiveTissueProperlySaid, meta: {
+            search: {
+                text: 'Tecido Conjuntivo Propriamente Dito', keys: ['tecido conjuntivo propriamente dito']
             }
         }
     }, {

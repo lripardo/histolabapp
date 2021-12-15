@@ -1,6 +1,6 @@
 <template>
   <v-card flat>
-    <v-card-title>Tecidos Básicos de Histologia</v-card-title>
+    <h2 class="text-center mx-2">Tecidos Básicos de Histologia</h2>
     <v-card-text>
       <p>Histologia é o estudo das células e dos tecidos do corpo e de como essas estruturas se organizam para
         constituir os órgãos.</p>
