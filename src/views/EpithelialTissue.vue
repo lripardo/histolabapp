@@ -26,8 +26,8 @@ export default {
         txt: 'Estratificado'
       },
       {
-        to: '',
-        txt: 'Pseudo estratificado'
+        to: 'epithelial-tissue-simple-pseudostratified',
+        txt: 'Pseudoestratificado'
       }
     ]
   })

@@ -13,7 +13,8 @@ import EpithelialTissueStratified from '@/views/EpithelialTissueStratified';
 import EpithelialTissueStratifiedCubic from '@/views/EpithelialTissueStratifiedCubic';
 import EpithelialTissueStratifiedNonKeratinized from '@/views/EpithelialTissueStratifiedNonKeratinized';
 import EpithelialTissueStratifiedKeratinized from '@/views/EpithelialTissueStratifiedKeratinized';
-import EpithelialTissueStratifiedTransitional from "@/views/EpithelialTissueStratifiedTransitional";
+import EpithelialTissueStratifiedTransitional from '@/views/EpithelialTissueStratifiedTransitional';
+import ConnectiveTissue from '@/views/ConnectiveTissue';
 
 Vue.use(VueRouter);
 
@@ -130,6 +131,12 @@ const router = new VueRouter({
             search: {
                 text: 'Tecido Epitelial Estratificado de Transição',
                 keys: ['tecido epitelial estratificado de transicao']
+            }
+        }
+    }, {
+        path: '/connective-tissue', name: 'connective-tissue', component: ConnectiveTissue, meta: {
+            search: {
+                text: 'Tecido Conjuntivo', keys: ['tecido conjuntivo']
             }
         }
     }, {
