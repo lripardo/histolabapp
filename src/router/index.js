@@ -19,6 +19,8 @@ import ConnectiveTissueProperlySaid from '@/views/ConnectiveTissueProperlySaid';
 import ConnectiveTissueProperlySaidLoose from '@/views/ConnectiveTissueProperlySaidLoose';
 import ConnectiveTissueProperlySaidDensePatterned from "@/views/ConnectiveTissueProperlySaidDensePatterned";
 import ConnectiveTissueProperlySaidDenseUnpatterned from '@/views/ConnectiveTissueProperlySaidDenseUnpatterned';
+import ConnectiveTissueProperlySaidElastic from '@/views/ConnectiveTissueProperlySaidElastic';
+import ConnectiveTissueProperlySaidMucous from "@/views/ConnectiveTissueProperlySaidMucous";
 
 Vue.use(VueRouter);
 
@@ -179,6 +181,25 @@ const router = new VueRouter({
             search: {
                 text: 'Tecido Conjuntivo Propriamente Dito Denso Não Modelado',
                 keys: ['tecido conjuntivo propriamente dito denso nao modelado']
+            }
+        }
+    }, {
+        path: '/connective-tissue-properly-said-elastic',
+        name: 'connective-tissue-properly-said-elastic',
+        component: ConnectiveTissueProperlySaidElastic,
+        meta: {
+            search: {
+                text: 'Tecido Conjuntivo Propriamente Dito Elástico',
+                keys: ['tecido conjuntivo propriamente dito elastico']
+            }
+        }
+    }, {
+        path: '/connective-tissue-properly-said-mucous',
+        name: 'connective-tissue-properly-said-mucous',
+        component: ConnectiveTissueProperlySaidMucous,
+        meta: {
+            search: {
+                text: 'Tecido Conjuntivo Propriamente Dito Mucoso', keys: ['tecido conjuntivo propriamente dito mucoso']
             }
         }
     }, {

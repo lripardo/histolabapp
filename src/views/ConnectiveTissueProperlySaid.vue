@@ -26,11 +26,11 @@ export default {
         txt: 'Denso não modelado'
       },
       {
-        to: '',
+        to: 'connective-tissue-properly-said-elastic',
         txt: 'Elástico'
       },
       {
-        to: '',
+        to: 'connective-tissue-properly-said-mucous',
         txt: 'Mucoso'
       }
     ]
