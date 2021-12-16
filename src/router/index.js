@@ -28,6 +28,7 @@ import ConnectiveTissueCartilaginous from '@/views/ConnectiveTissueCartilaginous
 import ConnectiveTissueCartilaginousElastic from '@/views/ConnectiveTissueCartilaginousElastic';
 import ConnectiveTissueCartilaginousFibrocartilage from '@/views/ConnectiveTissueCartilaginousFibrocartilage';
 import ConnectiveTissueCartilaginousHyaline from '@/views/ConnectiveTissueCartilaginousHyaline';
+import ConnectiveTissueOsseous from '@/views/ConnectiveTissueOsseous';
 
 Vue.use(VueRouter);
 
@@ -271,6 +272,15 @@ const router = new VueRouter({
         meta: {
             search: {
                 text: 'Tecido Conjuntivo Cartilaginoso Hialina', keys: ['tecido conjuntivo cartilaginoso hialina']
+            }
+        }
+    }, {
+        path: '/connective-tissue-osseous',
+        name: 'connective-tissue-osseous',
+        component: ConnectiveTissueOsseous,
+        meta: {
+            search: {
+                text: 'Tecido Conjuntivo Ósseo', keys: ['tecido conjuntivo osseo']
             }
         }
     }, {

@@ -28,7 +28,7 @@ export default {
         txt: 'Cartilaginoso'
       },
       {
-        to: '',
+        to: 'connective-tissue-osseous',
         txt: 'Ósseo'
       },
       {
