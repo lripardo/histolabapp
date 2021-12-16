@@ -21,7 +21,7 @@ export default {
         txt: 'Estriado esquelético'
       },
       {
-        to: '',
+        to: 'muscle-tissue-cardiac-striated',
         txt: 'Estriado cardíaco'
       },
       {

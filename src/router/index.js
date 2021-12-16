@@ -33,6 +33,7 @@ import ConnectiveTissueOsseousCompactBone from '@/views/ConnectiveTissueOsseousC
 import ConnectiveTIssueOsseousCancellousBone from '@/views/ConnectiveTIssueOsseousCancellousBone';
 import MuscleTissue from "@/views/MuscleTissue";
 import MuscleTissueSkeletalStriated from "@/views/MuscleTissueSkeletalStriated";
+import MuscleTissueCardiacStriated from "@/views/MuscleTissueCardiacStriated";
 
 Vue.use(VueRouter);
 
@@ -318,6 +319,15 @@ const router = new VueRouter({
         meta: {
             search: {
                 text: 'Tecido Muscular Estriado Esquelético', keys: ['tecido muscular estriado esqueletico']
+            }
+        }
+    }, {
+        path: '/muscle-tissue-cardiac-striated',
+        name: 'muscle-tissue-cardiac-striated',
+        component: MuscleTissueCardiacStriated,
+        meta: {
+            search: {
+                text: 'Tecido Muscular Estriado Cardíaco', keys: ['tecido muscular estriado cardiaco']
             }
         }
     }, {
