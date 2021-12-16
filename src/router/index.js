@@ -27,6 +27,7 @@ import ConnectiveTissueAdiposeMultilocular from '@/views/ConnectiveTissueAdipose
 import ConnectiveTissueCartilaginous from '@/views/ConnectiveTissueCartilaginous';
 import ConnectiveTissueCartilaginousElastic from '@/views/ConnectiveTissueCartilaginousElastic';
 import ConnectiveTissueCartilaginousFibrocartilage from '@/views/ConnectiveTissueCartilaginousFibrocartilage';
+import ConnectiveTissueCartilaginousHyaline from '@/views/ConnectiveTissueCartilaginousHyaline';
 
 Vue.use(VueRouter);
 
@@ -261,6 +262,15 @@ const router = new VueRouter({
             search: {
                 text: 'Tecido Conjuntivo Cartilaginoso Fibrocartilagem',
                 keys: ['tecido conjuntivo cartilaginoso fibrocartilagem']
+            }
+        }
+    }, {
+        path: '/connective-tissue-cartilaginous-hyaline',
+        name: 'connective-tissue-cartilaginous-hyaline',
+        component: ConnectiveTissueCartilaginousHyaline,
+        meta: {
+            search: {
+                text: 'Tecido Conjuntivo Cartilaginoso Hialina', keys: ['tecido conjuntivo cartilaginoso hialina']
             }
         }
     }, {

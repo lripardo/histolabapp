@@ -25,7 +25,7 @@ export default {
         txt: 'Fibrocartilagem'
       },
       {
-        to: '',
+        to: 'connective-tissue-cartilaginous-hyaline',
         txt: 'Hialina'
       }
     ]
