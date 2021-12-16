@@ -32,7 +32,7 @@ export default {
         txt: 'Ósseo'
       },
       {
-        to: '',
+        to: 'muscle-tissue',
         txt: 'Muscular'
       }
     ]
