@@ -37,7 +37,8 @@ import MuscleTissueCardiacStriated from '@/views/MuscleTissueCardiacStriated';
 import MuscleTissueSmooth from '@/views/MuscleTissueSmooth';
 import NervousTissue from '@/views/NervousTissue';
 import NervousTissueMedulla from '@/views/NervousTissueMedulla';
-import NervousTissueCerebellar from "@/views/NervousTissueCerebellar";
+import NervousTissueCerebellar from '@/views/NervousTissueCerebellar';
+import NervousTissueBrain from '@/views/NervousTissueBrain';
 
 Vue.use(VueRouter);
 
@@ -359,6 +360,12 @@ const router = new VueRouter({
         meta: {
             search: {
                 text: 'Tecido Nervoso Cerebelo', keys: ['tecido nervoso cerebelo']
+            }
+        }
+    }, {
+        path: '/nervous-tissue-brain', name: 'nervous-tissue-brain', component: NervousTissueBrain, meta: {
+            search: {
+                text: 'Tecido Nervoso Cérebro', keys: ['tecido nervoso cerebro']
             }
         }
     }, {

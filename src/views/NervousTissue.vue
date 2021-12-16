@@ -24,7 +24,7 @@ export default {
         txt: 'Cerebelo'
       },
       {
-        to: '',
+        to: 'nervous-tissue-brain',
         txt: 'Cérebro'
       },
       {
