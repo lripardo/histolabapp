@@ -27,7 +27,7 @@
             </custom-btn>
           </v-col>
           <v-col cols="6">
-            <custom-btn to="" color="accent">
+            <custom-btn to="muscle-tissue" color="accent">
               <multiline-btn>
                 <div>TECIDO</div>
                 <div>MUSCULAR</div>
@@ -35,7 +35,7 @@
             </custom-btn>
           </v-col>
           <v-col cols="6">
-            <custom-btn to="" color="accent">
+            <custom-btn to="nervous-tissue" color="accent">
               <multiline-btn>
                 <div>TECIDO</div>
                 <div>NERVOSO</div>
@@ -50,7 +50,7 @@
 
 <script>
 import CustomBtn from '@/components/CustomBtn';
-import MultilineBtn from "@/components/MultilineBtn";
+import MultilineBtn from '@/components/MultilineBtn';
 
 export default {
   name: 'HistologyBasicTissues',
