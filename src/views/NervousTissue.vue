@@ -16,7 +16,7 @@ export default {
   data: () => ({
     tissues: [
       {
-        to: '',
+        to: 'nervous-tissue-medulla',
         txt: 'Medula'
       },
       {

@@ -35,7 +35,8 @@ import MuscleTissue from '@/views/MuscleTissue';
 import MuscleTissueSkeletalStriated from '@/views/MuscleTissueSkeletalStriated';
 import MuscleTissueCardiacStriated from '@/views/MuscleTissueCardiacStriated';
 import MuscleTissueSmooth from '@/views/MuscleTissueSmooth';
-import NervousTissue from "@/views/NervousTissue";
+import NervousTissue from '@/views/NervousTissue';
+import NervousTissueMedulla from '@/views/NervousTissueMedulla';
 
 Vue.use(VueRouter);
 
@@ -342,6 +343,12 @@ const router = new VueRouter({
         path: '/nervous-tissue', name: 'nervous-tissue', component: NervousTissue, meta: {
             search: {
                 text: 'Tecido Nervoso', keys: ['tecido nervoso']
+            }
+        }
+    }, {
+        path: '/nervous-tissue-medulla', name: 'nervous-tissue-medulla', component: NervousTissueMedulla, meta: {
+            search: {
+                text: 'Tecido Nervoso Medula', keys: ['tecido nervoso medula']
             }
         }
     }, {
