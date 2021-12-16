@@ -31,9 +31,10 @@ import ConnectiveTissueCartilaginousHyaline from '@/views/ConnectiveTissueCartil
 import ConnectiveTissueOsseous from '@/views/ConnectiveTissueOsseous';
 import ConnectiveTissueOsseousCompactBone from '@/views/ConnectiveTissueOsseousCompactBone';
 import ConnectiveTIssueOsseousCancellousBone from '@/views/ConnectiveTIssueOsseousCancellousBone';
-import MuscleTissue from "@/views/MuscleTissue";
-import MuscleTissueSkeletalStriated from "@/views/MuscleTissueSkeletalStriated";
-import MuscleTissueCardiacStriated from "@/views/MuscleTissueCardiacStriated";
+import MuscleTissue from '@/views/MuscleTissue';
+import MuscleTissueSkeletalStriated from '@/views/MuscleTissueSkeletalStriated';
+import MuscleTissueCardiacStriated from '@/views/MuscleTissueCardiacStriated';
+import MuscleTissueSmooth from '@/views/MuscleTissueSmooth';
 
 Vue.use(VueRouter);
 
@@ -328,6 +329,12 @@ const router = new VueRouter({
         meta: {
             search: {
                 text: 'Tecido Muscular Estriado Cardíaco', keys: ['tecido muscular estriado cardiaco']
+            }
+        }
+    }, {
+        path: '/muscle-tissue-smooth', name: 'muscle-tissue-smooth', component: MuscleTissueSmooth, meta: {
+            search: {
+                text: 'Tecido Muscular Liso', keys: ['tecido muscular liso']
             }
         }
     }, {

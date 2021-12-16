@@ -25,7 +25,7 @@ export default {
         txt: 'Estriado cardíaco'
       },
       {
-        to: '',
+        to: 'muscle-tissue-smooth',
         txt: 'Liso'
       }
     ]
