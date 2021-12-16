@@ -11,11 +11,11 @@
       <v-container class="pa-0">
         <v-row class="text-center" align="center">
           <v-col cols="12">
-            <img alt="subtitle" class="contain" :src="require(`../assets/tissues/${subtitle}`)"/>
+            <img alt="subtitle" class="contain" :src="require(`@/assets/tissues/${subtitle}`)"/>
           </v-col>
           <v-col cols="12">
             <viewer>
-              <img alt="img" class="contain" :src="require(`../assets/tissues/${img}`)"/>
+              <img alt="img" class="contain" :src="require(`@/assets/tissues/${img}`)"/>
             </viewer>
           </v-col>
         </v-row>
