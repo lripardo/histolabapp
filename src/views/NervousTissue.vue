@@ -28,7 +28,7 @@ export default {
         txt: 'Cérebro'
       },
       {
-        to: '',
+        to: 'nervous-tissue-nerve-fibers',
         txt: 'Fibras nervosas'
       }
     ]

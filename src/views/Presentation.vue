@@ -1,7 +1,11 @@
 <template>
   <v-card class="mt-3" flat>
-    <h2 class="text-center">APRESENTAÇÃO</h2>
     <v-card-text>
+      <div class="text-center mb-6">
+        <v-avatar size="80">
+          <v-img src="@/assets/logo_cropped.png"></v-img>
+        </v-avatar>
+      </div>
       <p>Olá, bem vindo(a) ao HistoLabApp.</p>
       <p>O HistoLabApp é um aplicativo móvel sobre Histologia Básica resultado do trabalho colaborativo de professores
         e estudantes de graduação da Universidade Estadual do Maranhão que contribuíram para a produção desse material
