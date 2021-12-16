@@ -32,6 +32,7 @@ import ConnectiveTissueOsseous from '@/views/ConnectiveTissueOsseous';
 import ConnectiveTissueOsseousCompactBone from '@/views/ConnectiveTissueOsseousCompactBone';
 import ConnectiveTIssueOsseousCancellousBone from '@/views/ConnectiveTIssueOsseousCancellousBone';
 import MuscleTissue from "@/views/MuscleTissue";
+import MuscleTissueSkeletalStriated from "@/views/MuscleTissueSkeletalStriated";
 
 Vue.use(VueRouter);
 
@@ -305,15 +306,21 @@ const router = new VueRouter({
             }
         }
     }, {
-        path: '/muscle-tissue',
-        name: 'muscle-tissue',
-        component: MuscleTissue,
-        meta: {
+        path: '/muscle-tissue', name: 'muscle-tissue', component: MuscleTissue, meta: {
             search: {
                 text: 'Tecido Muscular', keys: ['tecido muscular']
             }
         }
-    },{
+    }, {
+        path: '/muscle-tissue-skeletal-striated',
+        name: 'muscle-tissue-skeletal-striated',
+        component: MuscleTissueSkeletalStriated,
+        meta: {
+            search: {
+                text: 'Tecido Muscular Estriado Esquelético', keys: ['tecido muscular estriado esqueletico']
+            }
+        }
+    }, {
         path: '*', redirect: '/'
     }]
 });

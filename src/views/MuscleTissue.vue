@@ -17,7 +17,7 @@ export default {
   data: () => ({
     tissues: [
       {
-        to: '',
+        to: 'muscle-tissue-skeletal-striated',
         txt: 'Estriado esquelético'
       },
       {
