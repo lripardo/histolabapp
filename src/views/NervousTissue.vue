@@ -20,7 +20,7 @@ export default {
         txt: 'Medula'
       },
       {
-        to: '',
+        to: 'nervous-tissue-cerebellar',
         txt: 'Cerebelo'
       },
       {
