@@ -29,7 +29,8 @@ import ConnectiveTissueCartilaginousElastic from '@/views/ConnectiveTissueCartil
 import ConnectiveTissueCartilaginousFibrocartilage from '@/views/ConnectiveTissueCartilaginousFibrocartilage';
 import ConnectiveTissueCartilaginousHyaline from '@/views/ConnectiveTissueCartilaginousHyaline';
 import ConnectiveTissueOsseous from '@/views/ConnectiveTissueOsseous';
-import ConnectiveTissueOsseousCompactBone from "@/views/ConnectiveTissueOsseousCompactBone";
+import ConnectiveTissueOsseousCompactBone from '@/views/ConnectiveTissueOsseousCompactBone';
+import ConnectiveTIssueOsseousCancellousBone from '@/views/ConnectiveTIssueOsseousCancellousBone';
 
 Vue.use(VueRouter);
 
@@ -291,6 +292,15 @@ const router = new VueRouter({
         meta: {
             search: {
                 text: 'Tecido Conjuntivo Ósseo - Osso Compacto', keys: ['tecido conjuntivo osseo osso compacto']
+            }
+        }
+    }, {
+        path: '/connective-tissue-osseous-cancellous-bone',
+        name: 'connective-tissue-osseous-cancellous-bone',
+        component: ConnectiveTIssueOsseousCancellousBone,
+        meta: {
+            search: {
+                text: 'Tecido Conjuntivo Ósseo - Osso Esponjoso', keys: ['tecido conjuntivo osseo osso esponjoso']
             }
         }
     }, {

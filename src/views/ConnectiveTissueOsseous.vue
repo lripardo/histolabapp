@@ -21,7 +21,7 @@ export default {
         txt: 'Osso compacto'
       },
       {
-        to: '',
+        to: 'connective-tissue-osseous-cancellous-bone',
         txt: 'Osso esponjoso'
       }
     ]
