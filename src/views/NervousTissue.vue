@@ -4,6 +4,7 @@
       receber, gerar e transmitir impulsos nervosos.</p>
     <p>O tecido nervoso possui pouca substância intercelular e é composto principalmente por dois tipos celulares: os
       neurônios e as células da glia, também chamadas de gliócitos.</p>
+    <p>O tecido nervoso pode ser observado nos órgãos do sistema nervoso central e periférico, como:</p>
   </tissue-list>
 </template>
 

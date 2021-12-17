@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <custom-app-bar :hidden-back="hideBackBtn"/>
-    <v-main class="fill-height">
+    <v-main class="fill-height text-justify">
       <router-view/>
     </v-main>
   </v-app>

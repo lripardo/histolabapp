@@ -1,5 +1,23 @@
 <template>
   <v-app-bar app absolute flat color="transparent">
+    <v-dialog v-model="dialog" max-width="250">
+      <v-card>
+        <v-card-title>HistoLabApp</v-card-title>
+        <v-card-text class="text-center">
+          <v-avatar size="80">
+            <v-img src="@/assets/logo_cropped.png"></v-img>
+          </v-avatar>
+          <div>
+            versão {{ version }}
+          </div>
+        </v-card-text>
+        <v-card-actions>
+          <v-spacer/>
+          <v-btn text @click="dialog = false">Fechar</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+
     <v-app-bar-nav-icon v-if="!hiddenBack">
       <v-btn icon>
         <v-icon @click="back">mdi-arrow-left</v-icon>
@@ -25,11 +43,26 @@
         :filter="pageQuery"
         @input="goToPageQuery"
     />
+
+    <v-menu left bottom>
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn icon v-bind="attrs" v-on="on">
+          <v-icon>mdi-dots-vertical</v-icon>
+        </v-btn>
+      </template>
+
+      <v-list>
+        <v-list-item @click="dialog = true">
+          <v-list-item-title>Versão</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-menu>
   </v-app-bar>
 </template>
 
 <script>
 import {goTo} from '@/router/util';
+import {version} from '../../package.json';
 
 export default {
   props: {
@@ -41,6 +74,8 @@ export default {
   },
   name: 'CustomAppBar',
   data: () => ({
+    dialog: false,
+    version: version,
     model: null,
     search: null,
   }),
