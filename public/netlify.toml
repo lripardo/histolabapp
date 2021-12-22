@@ -1,4 +1,0 @@
-[[redirects]]
-from = "/.well_known/*"
-to = "/well_known/:splat"
-status = 200
