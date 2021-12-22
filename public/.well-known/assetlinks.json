@@ -5,9 +5,9 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.your.package_name",
+      "package_name": "app.netlify.histolabapp.twa",
       "sha256_cert_fingerprints": [
-        "XX:XX:XX:..."
+        "43:07:06:DB:45:4F:F0:14:05:62:59:24:5C:EF:DB:83:66:94:20:7C:69:70:BE:17:8E:7A:F7:CB:8B:D5:AE:75"
       ]
     }
   }
