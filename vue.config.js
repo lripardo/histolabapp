@@ -1,7 +1,7 @@
 module.exports = {
     transpileDependencies: ['vuetify'], pwa: {
         workboxOptions: {
-            exclude: ['_redirects']
+            exclude: ['_redirects', '/\.map$/']
         }
     }
 }
