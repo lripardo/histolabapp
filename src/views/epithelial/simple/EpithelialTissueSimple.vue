@@ -25,10 +25,6 @@ export default {
       {
         to: 'epithelial-tissue-simple-prismatic',
         txt: 'Prismático'
-      },
-      {
-        to: 'epithelial-tissue-simple-pseudostratified',
-        txt: 'Pseudoestratificado'
       }
     ]
   })

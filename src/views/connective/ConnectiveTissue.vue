@@ -30,10 +30,6 @@ export default {
       {
         to: 'connective-tissue-osseous',
         txt: 'Ósseo'
-      },
-      {
-        to: 'muscle-tissue',
-        txt: 'Muscular'
       }
     ]
   })
